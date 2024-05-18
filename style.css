@@ -1,0 +1,74 @@
+body {
+    background-image: url("me.jpeg"); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 30px; /* Space between the circles */
+    margin: 0;
+    background-color: #f0f0f0;
+    background-size: cover;
+}
+
+
+.container{
+    width: 1250px;
+    height: 575px;
+    border: 3px solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+#box1{
+    width: 250px;
+    height: 250px;
+    border: 3px solid black ;
+    border-radius: 50%;
+    margin-top: 0px;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+
+}
+
+#box2{
+    width: 250px;
+    height: 250px;
+    border: 3px solid black ;
+    border-radius: 50%;
+    margin-top: 0px;
+    background-color: rgb(24, 237, 138);
+    background-size: cover;
+    align-content: center;
+    background-image: url("download.jpeg");
+    background-size: cover;
+}
+
+#box3{
+    width: 250px;
+    height: 250px;
+    border: 3px solid black ;
+    border-radius: 50%;
+    margin-top: 0px;
+    background-color: aqua;
+    background-size: cover;
+    align-content: center;
+    background-image: url("images.jpeg");
+    background-size: cover;
+}
+
+#box4{
+    width: 250px;
+    height: 250px;
+    border: 3px solid black ;
+    border-radius: 50%;
+    margin-bottom: px;
+    background-color: rgb(219, 37, 229);
+    background-size: cover;
+    align-content: center;
+}
